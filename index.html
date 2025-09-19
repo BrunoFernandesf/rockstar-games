@@ -3,29 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Rockstar Games</title>
 </head>
-<body>
-    <header class="edges">
-        <nav>
+<body class="bg-[#101010] text-white">
+    <header class="bg-black flex items-center justify-around gap-20 py-4">
+        <nav class="w-60 flex items-center justify-between">
             <img src="assets/Logo.svg" alt="logo rockstar games">
-            <ul class="nav-list">
-                <li class="nav-list-jogosli">Jogos <img src="assets/arrow_drop_down.svg"></li>
+            <ul class="w-[70%] flex items-center justify-between">
+                <li class="flex items-center gap-0">Jogos <img src="assets/arrow_drop_down.svg"></li>
                 <li>Loja</li>
                 <li>Ajuda</li>
             </ul>
         </nav>
-        <section class="links">
-            <a class="links-button">Baixe o Launcher</a>
-            <a><img class="links-icone" src="assets/search.svg"></a>
-            <a><img class="links-icone" src="assets/person.svg"></a>
+        <section class="flex items-center justify-between gap-4">
+            <a class="bg-[#FCAF17] text-[#020202] font-semibold text-center text-lg px-4 py-2 rounded-lg">Baixe o Launcher</a>
+            <a><img class="bg-[#5A5A5A] p-2 rounded-full" src="assets/search.svg"></a>
+            <a><img class="bg-[#5A5A5A] p-2 rounded-full" src="assets/person.svg"></a>
         </section>
     </header>
     
     <hero>
-        <img class="hero-imagem" src="assets/GTA-6-banner.png" alt="Imagem de anúncio do GTA 6">
+        <img class="w-auto" src="assets/GTA-6-banner.png" alt="Imagem de anúncio do GTA 6">
     </hero>
 
     <main>
